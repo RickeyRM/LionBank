@@ -19,10 +19,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     font-family: 'Open Sans', sans-serif;
     background-size: cover;
     color: #fff;
-    background: url(../img/lion-bg.jpg) 0 0 no-repeat;
+    background: url(../img/lion-bg.jpg) 0 0 no-repeat, url(../img/bottom-lion.png) right 1847px no-repeat;
     background-size: auto;
     background-color: #29282D;
-    position: relative;
 }
 .container{
     max-width: 1160px;
@@ -226,10 +225,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     height: 32px;
     border-radius: 50%;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 32px;
     color: #fff;
     transition: all 0.2s;
-
 }
 .news__page-item:hover{
     background-color: #353439;
