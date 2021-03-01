@@ -120,7 +120,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 .offers__item{
     width: 362px;
-    height: 449px;
+    min-height: 449px;
     background-color: #fff;
     position: relative;
     border-radius: 5px;
