@@ -1,0 +1,20 @@
+/*ABOUT*/
+.about{
+    margin: 152px 0 53px;
+    height: 587px;
+}
+.about__inner{
+    display: inline-block;
+    background-color: #202123;
+    width: 785px;
+    height: 455px;
+    position: absolute;
+    left: 354px;
+    top: 97px;
+    padding: 70px 160px 68px 81px;
+}
+.about__text{
+    margin: 37px 0 71px;
+    font-size: 16px;
+    line-height: 27px;
+}

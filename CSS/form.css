@@ -1,0 +1,79 @@
+.form__title{
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.form{
+    padding: 72px 0 72px;
+    background-color: #F4F5F5;
+}
+.form__input{
+    margin-top: 47px;
+}
+.form__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.form__item{
+    width: 557px;
+    height: 65px;
+    font-size: 18px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form__item:focus, .form__textarea:focus{
+    border: 1px solid #E5C288;
+
+}
+.form__textarea{
+    width: 1140px;
+    height: 235px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 26px;
+    font-size: 18px;
+    padding-left: 30px;
+    resize: none;
+}
+.form__services{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.form__services-item{
+    max-width: 680px;
+    min-height: 82px;
+    margin-top: 13px;
+}
+.form__services-item h4{
+    font-size: 18px;
+    line-height: 55px;
+    color: #1A1B1E;
+}
+.form__product{
+    display: inline-block;
+}
+.form__product{
+    font-size: 13px;
+    line-height: 17px;
+    color: #303030;
+    padding: 9px 15px;
+    border-radius: 35px;
+    background-color: #E7E7E7;
+    margin-top: 10px;
+}
+.form__button{
+    text-align: right;
+}
+.form__button button{
+    background-color: #2B2B2B;  
+}
+.form__button button:first-child{
+    background-color: #8E8E8E;
+}
+.form__button button:first-child:hover{
+    background-color: #DFB56D;
+}

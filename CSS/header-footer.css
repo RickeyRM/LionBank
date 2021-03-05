@@ -1,0 +1,72 @@
+/*HEADER*/
+
+.header__inner{
+    padding-top: 33px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu{
+    margin-left: 90px;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 54px;
+    line-height: 19px;
+}
+.menu ul li:last-child{
+    margin: 0;
+}
+.menu ul li a{
+    color: #fff;
+    transition: all 0.1s;
+}
+.menu ul li a:hover{
+     color: #DFB56D;
+     text-decoration: underline;
+}
+.contact{
+    margin-left: auto;
+    position: relative;
+}
+.contact__num{
+    font-size: 26px;
+    color: #fff;
+}
+.contact__time{
+    font-size: 13px;
+    line-height: 20px;
+    color: #D3A557;
+    text-decoration: underline;
+    position: absolute;
+    right: 0;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #29282D;
+}
+.footer__inner{
+    padding: 33px 0 33px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.contact__call{
+    font-size: 11px;
+    line-height: 20px;
+    color: rgba(154, 154, 154, 1);
+    margin-left: 30px;
+}
+.social{
+    margin-left: 173px;
+}
+.social__icon{
+    margin-right: 10px;
+}
+.lion__bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

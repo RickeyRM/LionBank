@@ -1,0 +1,17 @@
+/*SERVICES*/
+.services, .reviews{
+    min-height: 349px;
+}
+.services__title, .reviews__title{
+    font-size: 72px;
+    color: #fff;
+    padding-top: 103px;
+}
+.services__way, .reviews__way{
+    color: #9A9A9A;
+    margin-top: 133px;
+}
+.services__item a, .reviews__item a{
+    text-decoration: underline;
+    color: #9A9A9A;
+}

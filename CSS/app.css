@@ -1,0 +1,16 @@
+.app{
+    padding-top: 43px;
+    background: linear-gradient(0deg, #E5C288, #E5C288);
+}
+.app__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.app__item h2{
+    max-width: 481px;
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #202020;
+    margin-top: 41px;
+}

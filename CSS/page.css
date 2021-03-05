@@ -1,0 +1,28 @@
+.page{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center; 
+}
+.pagination{
+    display: inline-block;
+}
+.page-list, .page-item, .page-num{
+    display: inline-block;
+    color: #fff;
+}
+.page-list{
+    margin-left: 42px;
+}
+.page-num{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+    transition: all 0.2s;
+}
+.page-num:hover{
+    background-color: #353439;
+    color: #fff;
+}

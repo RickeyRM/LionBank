@@ -1,0 +1,19 @@
+/*INTRO*/
+.intro{
+    margin-top: 190px;  
+}
+.intro__title{
+    font-size: 58px;
+    font-weight: 700;
+    width: 510px;
+    line-height: 64px;
+}
+.intro__tagline{
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 25px;
+    color:#D3A557;
+}
+.intro__button{
+    margin-top: 43px;
+}
