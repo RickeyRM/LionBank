@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-bottom: 120px;
+    padding-bottom: 55px;
 }
 .partners__item{
     width: 300px;
