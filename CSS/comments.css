@@ -1,9 +1,8 @@
 .comments{
     padding: 98px 0 93px;
 }
-.comments__box{
-    display: flex;
-    justify-content: space-between;
+.comments__inner{
+    
 }
 .comments__item{
     max-width: 557px;

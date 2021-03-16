@@ -1,16 +1,30 @@
 .credits{
-    margin-top: 58px;
+    margin-top: 90px;
 }
 
 .credits__item{
     display: flex;
     align-items: flex-start;
-    padding: 40px 10px 22px 30px;  
+    position: relative;
+    z-index: 1;
+    margin-bottom: 107px;
+    transition: 0.5s linear;
 }
-.credits__item:last-child{
+.credits__item::before{
+    content: "";
+    position: absolute;
     background-color: #F5F5F5;
-    margin-top: 45px;
-    padding: 40px 144px 22px 30px; 
+    top: -40px;
+    right: -30px;
+    left: -22px;
+    bottom: -30px;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.2s;
+}
+.credits__item:hover::before{
+    opacity: 1;
+    
 }
 .credit__item:last-child{
     margin-left: 56px;

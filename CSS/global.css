@@ -2,6 +2,8 @@
 @import url('../CSS/header-footer.css');
 @import url('../CSS/page.css');
 
+@import url('../CSS/first.css');
+
 @import url('../CSS/glav-wrapper.css');
 @import url('../CSS/intro.css');
 @import url('../CSS/offers.css');
@@ -16,3 +18,4 @@
 @import url('../CSS/app.css');
 @import url('../CSS/comments.css');
 @import url('../CSS/form.css');
+

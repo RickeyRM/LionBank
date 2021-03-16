@@ -28,20 +28,66 @@
 .contact{
     margin-left: auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .contact__num{
     font-size: 26px;
     color: #fff;
 }
-.contact__time{
+
+.contact__time a{
     font-size: 13px;
     line-height: 20px;
     color: #D3A557;
     text-decoration: underline;
-    position: absolute;
-    right: 0;
+    position: relative;   
 }
-
+.contact__time:hover a{
+    color: #fff;
+    transition: all 0.2s;
+}
+.contact__time{
+    display: inline-block;
+}
+.contact__menu{
+    position: absolute;
+    background-color: #EDEDED;
+    padding: 15px 19px;
+    right: -299px;
+    top: 100%;
+    margin-top: 10px;
+    opacity: 0;
+    border-radius: 5px;
+}
+.contact__time:hover .contact__menu{
+    right: 0;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+.contact__menu::before{
+    content: "";
+    display: block;
+    height: 10px;
+    left: 0;
+    right: 0;
+    top: -10px;
+    position: absolute;
+}
+.contact__time:hover .contact__menu, a{
+    color: #fff;
+}
+.contact__item{
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #1E1F20;
+    opacity: 1;
+}
+.contact__item:last-child{
+    font-weight: 500;
+}
 /*FOOTER*/
 .footer{
     background-color: #29282D;
@@ -59,11 +105,17 @@
     color: rgba(154, 154, 154, 1);
     margin-left: 30px;
 }
+
 .social{
     margin-left: 173px;
 }
 .social__icon{
     margin-right: 10px;
+    opacity: 0.4;
+}
+.social__icon:hover{
+    opacity: 1;
+    transition: all 0.2s linear;
 }
 .lion__bg{
     position: absolute;

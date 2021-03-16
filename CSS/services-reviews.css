@@ -4,8 +4,9 @@
 }
 .services__title, .reviews__title{
     font-size: 72px;
+    font-weight: 700;
     color: #fff;
-    padding-top: 103px;
+    padding-top: 100px;
 }
 .services__way, .reviews__way{
     color: #9A9A9A;
@@ -14,4 +15,7 @@
 .services__item a, .reviews__item a{
     text-decoration: underline;
     color: #9A9A9A;
+}
+.services__item:last-child, .reviews__item:last-child{
+    font-weight: 700;
 }

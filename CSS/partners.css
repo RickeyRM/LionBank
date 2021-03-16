@@ -16,9 +16,14 @@
     padding-bottom: 55px;
 }
 .partners__item{
-    width: 300px;
+    display: inline-block;
+    width: 270px;
     margin-bottom: 64px;
-    
+    filter: grayscale(100%);
+    transition: filter 0.1s linear;
+}
+.partners__item:hover{
+    filter: none;
 }
 .partners__item:nth-child(1){
     padding-left: 30px;
