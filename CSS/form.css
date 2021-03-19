@@ -6,7 +6,7 @@
 }
 
 .form{
-    padding: 72px 0 72px;
+    padding: 72px 0 60px;
     background-color: #F4F5F5;
 }
 .form__input{
@@ -46,7 +46,7 @@
 .form__services{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .form__services-item{
     max-width: 680px;
@@ -93,10 +93,11 @@
     text-align: right;
 }
 .form__button button{
-    background-color: #2B2B2B;  
+    background-color: #2B2B2B;    
 }
 .form__button button:first-child{
     background-color: #8E8E8E;
+    margin-right: 20px;
 }
 .form__button button:first-child:hover{
     background-color: #DFB56D;
