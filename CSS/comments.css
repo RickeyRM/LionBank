@@ -1,10 +1,13 @@
 .comments{
     padding: 98px 0 93px;
 }
-.comments__inner{
-    columns: 2;
+.comments__box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .comments__item{
+    display: block;
     max-width: 557px;
     background-color: #F4F5F5;
     border-radius: 5px;

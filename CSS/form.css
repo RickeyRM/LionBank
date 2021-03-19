@@ -66,6 +66,17 @@
     border-radius: 35px;
     background-color: #E7E7E7;
     margin-top: 10px;
+    user-select: none;
+}
+.form__product--bg{
+    font-size: 13px;
+    line-height: 17px;
+    color: #303030;
+    padding: 9px 15px;
+    border-radius: 35px;
+    background-color: #B9EAE4;
+    margin-top: 10px;
+    user-select: none;
 }
 .form__button{
     text-align: right;
