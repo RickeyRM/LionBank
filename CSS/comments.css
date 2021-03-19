@@ -2,7 +2,7 @@
     padding: 98px 0 93px;
 }
 .comments__inner{
-    
+    columns: 2;
 }
 .comments__item{
     max-width: 557px;

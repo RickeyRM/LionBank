@@ -69,11 +69,22 @@
 .contact__menu::before{
     content: "";
     display: block;
-    height: 10px;
+    height: 13px;
     left: 0;
     right: 0;
-    top: -10px;
+    top: -13px;
     position: absolute;
+}
+.contact__menu::after{
+    content: "";
+    display: block;
+    border: 10px solid transparent;
+    height: 0;
+    width: 0;
+    border-bottom-color: #EDEDED;
+    position: absolute;
+    top: -20px;
+    right: 40px;
 }
 .contact__time:hover .contact__menu, a{
     color: #fff;

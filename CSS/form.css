@@ -23,6 +23,7 @@
     padding-left: 30px;
     box-sizing: border-box;
     border-radius: 5px;
+    border: 1px solid #fff;
 }
 .form__item:focus, .form__textarea:focus{
     border: 1px solid #E5C288;
@@ -37,6 +38,7 @@
     font-size: 18px;
     padding-left: 30px;
     resize: none;
+    border: 1px solid #fff;
 }
 .form__services{
     display: flex;
