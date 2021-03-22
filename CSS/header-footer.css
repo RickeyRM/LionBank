@@ -1,7 +1,4 @@
 /*HEADER*/
-.header{
-    
-}
 .header__inner{
     padding-top: 33px;
     display: flex;
@@ -124,8 +121,68 @@
     margin-left: 173px;
 }
 .social__icon{
+    width: 36px;
+    height: 36px;
+    display: inline-block;
     margin-right: 10px;
-    opacity: 0.4;
+    position: relative;
+}
+.icon-t::before, .icon-t::after, .icon-vk::before, .icon-vk::after, .icon-f::before, .icon-f::after, .icon-in::before, .icon-in::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icon-t::before{
+    background: url(../img/social-icon/icon.png) -122px -10px;
+    opacity: 1;
+}
+.icon-t::after{
+    background: url(../img/social-icon/icon.png) -122px -66px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.icon-t:hover::after{
+    opacity: 1;
+}
+.icon-vk::before{
+    background: url(../img/social-icon/icon.png) -10px -122px;
+    opacity: 1;
+}
+.icon-vk::after{
+    background: url(../img/social-icon/icon.png) -66px -122px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.icon-vk:hover::after{
+    opacity: 1;
+}
+.icon-f::before{
+    background: url(../img/social-icon/icon.png) -66px -10px;
+    opacity: 1;
+}
+.icon-f::after{
+    background: url(../img/social-icon/icon.png) -10px -10px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.icon-f:hover::after{
+    opacity: 1;
+}
+.icon-in::before{
+    background: url(../img/social-icon/icon.png) -66px -66px;
+    opacity: 1;
+}
+.icon-in::after{
+    background: url(../img/social-icon/icon.png) -10px -66px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.icon-in:hover::after{
+    opacity: 1;
 }
 .social__icon:hover{
     opacity: 1;
